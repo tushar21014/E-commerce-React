@@ -1,38 +1,72 @@
-.App {
-  text-align: center;
+body
+{
+  background-color: beige;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#buy,#add
+{
+  background-color: orange;
+  border: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-text{
+  text-align: justify;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#parent {
+  background-color: rgb(239, 246, 246);
+  max-height: 100%;
+}
+
+#col {
+  background-color: aquamarine;
+}
+
+.p-2 {
+  width: 100px;
+  height: 100px;
+  /* border: 2px solid black; */
+  margin: 0px;
+  cursor: pointer;
+}
+
+#images {
+  max-width: 100%;
+  max-height: 100%;
+}
+#col-2img{
+  max-width: 100%; 
+  max-height: 100%;
+
+}
+#part2 {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+#image1,#image2,#image3
+{
+  max-width: 100%;
+  max-height: 100%;
+}
+#offers 
+{
+  margin: 10px;
+  width: 30vw;
+  max-height: 100%  ;
+  border-radius: 10px;
+  box-shadow: 3px 2px 7px grey;
+}
+#part3, #part4 {
+  border: 2px solid black;
 }
 
-.App-link {
-  color: #61dafb;
+#context{
+  line-height: 100%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#aboutproduct
+{
+  border: 2px solid black;
 }
