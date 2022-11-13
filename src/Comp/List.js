@@ -1,22 +1,42 @@
-import React from 'react'
-import data from './List-data.json'
+export const tushar = Laptop[{
+    "id": "1",
+    "Title": "Laptops",
+    "Desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio eos voluptas tempore fugiat explicabo minima consectetur at quo! Temporibus, mollitia, cum cumque dolorem totam sed natus quia ad similique neque sequi",
+    "Content": "Uniqqqq",
+    "Specification": "Specifications",
+    "url": "https://images.unsplash.com/photo-1540270776932-e72e7c2d11cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "image1": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "image2": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "Button": "Buy Now",
+    "MRP": "1500",
+    "Deal_price": "999",
+    "Offer1": "No Cost EMI",
+    "Offer1content": "Dekh Bhai ye product jo hai vo ei pr available h . Aur jaane ke liye button dabaye",
+    "ModelName": "Model",
+    "Brand": "Brand",
+    "Battery": "Armed with a 5, 000 mAh battery, the Redmi 9 is more than capable of lasting more than a day. The phone comes with a 10W charger.",
+    "Design": "The phone comes with a textured back that is great to hold. The plastic casing makes for a good grip while keeping the weight low. It is designed to be easy to use even with one hand",
+    "Display": "The Redmi 9 comes with a large 6.53-inch LCD FHD+ screen, and the resolution is more than sufficient. The display is easy to read and brings your photos and videos to life.",
+},
+Computers[{
+    "id": "1",
+    "Title": "Laptops",
+    "Desc": "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio eos voluptas tempore fugiat explicabo minima consectetur at quo! Temporibus, mollitia, cum cumque dolorem totam sed natus quia ad similique neque sequi",
+    "Content": "Uniqqqq",
+    "Specification": "Specifications",
+    "url": "https://images.unsplash.com/photo-1540270776932-e72e7c2d11cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1171&q=80",
+    "image1": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "image2": "https://images.unsplash.com/photo-1453728013993-6d66e9c9123a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGVuc3xlbnwwfHwwfHw%3D&w=1000&q=80",
+    "Button": "Buy Now",
+    "MRP": "1500",
+    "Deal_price": "999",
+    "Offer1": "No Cost EMI",
+    "Offer1content": "Dekh Bhai ye product jo hai vo ei pr available h . Aur jaane ke liye button dabaye",
+    "ModelName": "Model",
+    "Brand": "Brand",
+    "Battery": "Armed with a 5, 000 mAh battery, the Redmi 9 is more than capable of lasting more than a day. The phone comes with a 10W charger.",
+    "Design": "The phone comes with a textured back that is great to hold. The plastic casing makes for a good grip while keeping the weight low. It is designed to be easy to use even with one hand",
+    "Display": "The Redmi 9 comes with a large 6.53-inch LCD FHD+ screen, and the resolution is more than sufficient. The display is easy to read and brings your photos and videos to life.",
 
-export default function List(props) {
-    const filterdata = data.filter((e1) => {
-        if (props.input === "") {
-            return e1;
-        }
-        else {
-            return e1.Text.toLowerCase().includes(props.input);
-        }
-    })
-    return (
-        <div>
-            <ol>
-            {filterdata.map((item) => (
-                <li key={item.id}>{item.text}</li>
-            ))}
-            </ol>
-        </div>
-    )
-}
+}]
+]

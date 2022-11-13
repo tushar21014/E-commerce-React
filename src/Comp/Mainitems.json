@@ -1,0 +1,32 @@
+{
+    "Tushar" : {
+        "i" : "3",
+        "Title": "Cameras",
+        "Desc": "A home security camera is a video recording device that captures footage of your home and property that you can view on a smartphone, tablet, or computer from anywhere using an internet connection. Most home security cameras are motion-activated and will record when they detect motion, as well as send you an alert.",
+        "CardImage": "https://images.unsplash.com/photo-1563920443079-783e5c786b83?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHNlY3VyaXR5JTIwY2FtZXJhfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
+        "Brands": [{
+            "Company": "Kent",
+            "id": "1",
+            "Title": "Kent Cam Wired 10 feet Long 360 Security Wall Mounting Kit Camera with Multiple Installation Options , USB Cable with Indoor Mount (White)",
+            "Desc": "Mounting kit specially designed for KENT CamEye HomeCam 360 White colored indoor wall mount with verstaile mounting options - surface, wall or ceiling",
+            "Specification": "Specifications",
+            "url": "https://sp-ao.shortpixel.ai/client/to_auto,q_glossy,ret_img,w_1920,h_1080/https://pc-tablet.com/wp-content/uploads/2021/12/Qubo-Smart-Cam-360-security-camera-Review-3.jpg",
+            "image1": "https://cdn.moglix.com/p/Y3wPiw5UOuMBM.jpg",
+            "image2": "https://technosports.co.in/wp-content/uploads/2021/11/Kent-360-Cam-16-1024x768.png",
+            "Button": "Buy Now",
+            "MRP": "Starting at Rs 599",
+            "Deal_price": "Offer Price Rs 399",
+            "Offer1": "No Cost EMI",
+            "Offer1content": "Things to note: About No Cost EMI on credit/debit cards: interest to be charged by the bank will be given as upfront discount on payment page. Know more For HDFC: You will be charged a processing fee of ₹199 by HDFC bank on all EMI plans. Know more Click to read EMI FAQ and T&Cs. Know more about other products - Bajaj FinServ EMI, ZestMoney EMI",
+            "Brand": "Kent Cam",
+            "Design": "White",
+            "Spe_Feature": "Night Vision",
+            "Resolution": "1080p"
+        },
+        {
+            "Company": "Aro",
+            "id": "2"
+        }
+    ]
+    }
+}
